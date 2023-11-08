@@ -18,6 +18,7 @@ function App() {
      {/* data */}
      {/* Some changes */}
      {/* Some more changes... */}
+     {/* React branch */}
     </>
   )
 }
