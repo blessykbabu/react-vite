@@ -1,4 +1,7 @@
+
 import { useState } from 'react'
+import{BrowserRouter as Router,Link,Routes,Route} from 'react-router-dom'
+
 
 import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
@@ -12,9 +15,22 @@ function App() {
 
   return (
     <>
+<Router>
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about/Blessy">About</Link></li>
+        <li><Link to="/dashboard">Dashboard</Link></li>
+      </ul>
+    </nav>
+    <Routes>
+      <Route path='/' element={<Home></Home>}
+      <Route patth='/about/:name' element={<About/>}/>
+    </Routes>
+    </Router>
     {/* <ControlledInput/>
      <UncontrolledInput/> */}
-     <Basic/>
+     {/* <Basic/> */}
      {/* data */}
      {/* Some changes */}
      {/* Some more changes... */}
