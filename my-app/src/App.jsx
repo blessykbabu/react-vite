@@ -6,19 +6,20 @@ import {BrowserRouter as Router, Link, Routes , Route} from 'react-router-dom';
 import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import UncontrolledInput from './components/Uncontrolledinput'
-import ControlledInput from './components/Controlledinput'
-import Basic from './components/Basic'
-import Home from './components/Home';
-import About from './components/About';
-import Dashboard from './components/Dashboard';
+// import UncontrolledInput from './components/Uncontrolledinput'
+// import ControlledInput from './components/Controlledinput'
+// import Basic from './components/Basic'
+// import Home from './components/Home';
+// import About from './components/About';
+// import Dashboard from './components/Dashboard';
+import UseEffectComponent from './components/useEffectComponent';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <Router>
+    {/* <Router>
     <nav>
       <ul>
         <li><Link to="/">Home</Link></li>
@@ -35,13 +36,14 @@ function App() {
 
     </Routes>
 
-    </Router>
+    </Router> */}
     {/* <Controlledinput/> */}
     {/* <UncontrolledInput/> */}
      {/* <Basic/> */}
      {/* data */}
      {/* Some changes */}
       {/* Some more changes... */}
+      <UseEffectComponent/>
     </>
   )
 }
