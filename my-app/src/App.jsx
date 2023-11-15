@@ -13,7 +13,8 @@ import reactLogo from './assets/react.svg'
 // import About from './components/About';
 // import Dashboard from './components/Dashboard';
 import UseEffectComponent from './components/useEffectComponent';
-
+import UseContextComponent from './components/usecontext/UseContextComponent.jsx';
+import MainComponent from './components/usecontext/MainComponet.jsx';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -43,7 +44,9 @@ function App() {
      {/* data */}
      {/* Some changes */}
       {/* Some more changes... */}
-      <UseEffectComponent/>
+      {/* <UseEffectComponent/> */}
+      {/* <UseContextComponent/> */}
+      <MainComponent/>
     </>
   )
 }
