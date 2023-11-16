@@ -12,9 +12,11 @@ import reactLogo from './assets/react.svg'
 // import Home from './components/Home';
 // import About from './components/About';
 // import Dashboard from './components/Dashboard';
-import UseEffectComponent from './components/useEffectComponent';
-import UseContextComponent from './components/usecontext/UseContextComponent.jsx';
-import MainComponent from './components/usecontext/MainComponent.jsx';
+// import UseEffectComponent from './components/useEffectComponent';
+// import UseContextComponent from './components/usecontext/UseContextComponent.jsx';
+// import MainComponent from './components/usecontext/MainComponent.jsx';
+import UseReduceCounter from './components/useReducer/UseReducerComponent';
+import UseCallbackComponent from './components/useCallback/UseCallbackComponent';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -46,7 +48,9 @@ function App() {
       {/* Some more changes... */}
       {/* <UseEffectComponent/> */}
       {/* <UseContextComponent/> */}
-      <MainComponent/>
+      {/* <MainComponent/> */}
+      {/* <UseReduceCounter/> */}
+<UseCallbackComponent/>
     </>
   )
 }
