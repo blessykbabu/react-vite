@@ -1,14 +1,17 @@
 import { useContext } from "react";
-import { MyContext } from "./MainComponet";
+import { MyContext } from "./MainComponent";
+
 function ThemeSelector(){
-    const {setTheme}=useContext(MyContext);
+
+    const {setTheme} = useContext(MyContext);
     return(
         <>
-
-        <button onClick={()=>setTheme('white')}>Light Theme</button>
-        <button onClick={()=>setTheme('dark')}>Dark Theme</button>
+        <button onClick={()=>
+        setTheme('white')}>Light Theme</button>
+        <button onClick={()=>
+        setTheme('black')}>black Theme</button>
         </>
-    
     )
 }
-export default ThemeSelector
+
+export default ThemeSelector;

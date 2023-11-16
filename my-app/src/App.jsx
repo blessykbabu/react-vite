@@ -14,7 +14,7 @@ import reactLogo from './assets/react.svg'
 // import Dashboard from './components/Dashboard';
 import UseEffectComponent from './components/useEffectComponent';
 import UseContextComponent from './components/usecontext/UseContextComponent.jsx';
-import MainComponent from './components/usecontext/MainComponet.jsx';
+import MainComponent from './components/usecontext/MainComponent.jsx';
 function App() {
   // const [count, setCount] = useState(0)
 
