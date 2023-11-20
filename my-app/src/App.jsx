@@ -15,8 +15,11 @@ import reactLogo from './assets/react.svg'
 // import UseEffectComponent from './components/useEffectComponent';
 // import UseContextComponent from './components/usecontext/UseContextComponent.jsx';
 // import MainComponent from './components/usecontext/MainComponent.jsx';
-import UseReduceCounter from './components/useReducer/UseReducerComponent';
-import UseCallbackComponent from './components/useCallback/UseCallbackComponent';
+// import UseReduceCounter from './components/useReducer/UseReducerComponent';
+// import UseCallbackComponent from './components/useCallback/UseCallbackComponent';
+import MyComponentWithUpperCase from './components/higherComponnet/HigherComponnet';
+import AxiosComponent from './components/axios/axios';
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -50,7 +53,9 @@ function App() {
       {/* <UseContextComponent/> */}
       {/* <MainComponent/> */}
       {/* <UseReduceCounter/> */}
-<UseCallbackComponent/>
+{/* <UseCallbackComponent/> */}
+{/* <MyComponentWithUpperCase text={"Helo world"}/> */}
+<AxiosComponent/>
     </>
   )
 }
