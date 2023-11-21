@@ -18,6 +18,7 @@ import reactLogo from './assets/react.svg'
 // import UseReduceCounter from './components/useReducer/UseReducerComponent';
 // import UseCallbackComponent from './components/useCallback/UseCallbackComponent';
 import MyComponentWithUpperCase from './components/higherComponnet/HigherComponnet';
+import ParentComponent from './components/PureComponent/PureComponnet';
 import AxiosComponent from './components/axios/axios';
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
       {/* <UseReduceCounter/> */}
 {/* <UseCallbackComponent/> */}
 {/* <MyComponentWithUpperCase text={"Helo world"}/> */}
-<AxiosComponent/>
+{/* <AxiosComponent/> */}
+<ParentComponent/>
     </>
   )
 }
